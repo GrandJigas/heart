@@ -14,6 +14,6 @@ window.onload = function () {
 function include(url) {
   var script = document.createElement("script");
   script.src = url;
-  script.async = true;
+  script.defer = true;
   document.getElementsByTagName("head")[0].appendChild(script);
 }
